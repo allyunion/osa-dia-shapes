@@ -1,8 +1,9 @@
-# AWS Simple Icons for dia
-This provides Dia AWS Simple Icons shapes.
+# OSA Icons for dia
+This provides Dia Open Security Architecture (OSA) Network Icons
 
-Some other people like https://github.com/kazuhisya/dia-aws-simple-icons made some scripts but none seemed to work properly. My script is a lot simpler. Granted, it simply throws away icons with spaces. There's only 2 right now, and i don't need 'em anyway.
-Just do it already. I just want some icons...
+This is based on https://github.com/kazuhisya/dia-aws-simple-icons and https://github.com/pieterlange/aws-dia-shapes
+
+http://www.opensecurityarchitecture.org/cms/library/icon-library
 
 ## System Requirements
 
@@ -12,19 +13,18 @@ Just do it already. I just want some icons...
 
 ## Usage
 ```bash
-$ git clone https://github.com/pieterlange/aws-dia-shapes
-$ cd aws-dia-shapes
+$ git clone https://github.com/allyunion/osa-dia-shapes
+$ cd osa-dia-shapes
 $ ./doit.sh
-~~ optionally if you aborted ~~
-$ cat ./.outputs/shapes.sheet  > ~/.dia/sheets/AWS.sheet
+$ cat ./.outputs/shapes.sheet  > ~/.dia/sheets/osa.sheet
 $ cp ./.outputs/shapes/* ~/.dia/shapes/
 ```
 
-## Licence
+## License
 
-- AWS Simple Icons
+- OSA Network Icon Library
     - Not specified
-    - See Also: https://aws.amazon.com/jp/blogs/aws/introducing-aws-simple-icons-for-your-architecture-diagrams/
+    - See Also: http://www.opensecurityarchitecture.org/cms/library/icon-library
 
 - Makefile
     - Please observe the following
